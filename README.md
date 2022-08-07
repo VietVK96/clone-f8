@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Affter pull code in git, ru:
+Affter pull code in git, run:
 
 ### `yarn`
 ### `yarn start`
