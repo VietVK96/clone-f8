@@ -9,3 +9,9 @@ Affter pull code in git, run:
 ### `yarn`
 ### `yarn start`
 
+if you don't have yarn, run
+
+### `npm i yarn`
+or with global
+### `npm i -g yarn`  
+
