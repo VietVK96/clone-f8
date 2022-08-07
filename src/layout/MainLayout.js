@@ -5,7 +5,6 @@ import MainSlider from "./MainSlide";
 import styled from "styled-components";
 const { Content } = Layout;
 const ContentContainer = styled(Content)`
-  padding: 15px 20px;
   height: 100vh-65px;
   overflow-y: scroll;
   background: #ffff;
