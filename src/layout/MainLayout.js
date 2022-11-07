@@ -1,4 +1,4 @@
-import { Layout } from "antd";
+import { Layout, Carousel } from "antd";
 import { Outlet } from "react-router-dom";
 import MainHeader from "./MainHeader";
 import MainSlider from "./MainSlide";
@@ -18,6 +18,7 @@ const ContentContainer = styled(Content)`
   }
 `;
 
+
 const MainLayout = () => {
   return (
     <Layout style={{ height: "100vh" }}>
@@ -26,6 +27,8 @@ const MainLayout = () => {
       <Layout>
         <MainSlider />
         <ContentContainer>
+         
+
           <Outlet />
         </ContentContainer>
       </Layout>
